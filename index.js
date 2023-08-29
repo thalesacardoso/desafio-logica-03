@@ -32,6 +32,10 @@ class heroi {
             case "ninja":
                 this.ataque = "shuriken"
                 break
+
+            default:
+                this.ataque = "Bazuca"
+                break
         }
 
         // mostra a mensagem do tipo do heroi e do ataque
@@ -42,7 +46,6 @@ class heroi {
     esquivar(){
         console.log("O " + this.nomeHeroi + " esquivou do ataque inimigo")
     }
-
 }
 
 // Criação dos Objetos com uso de parâmetros
